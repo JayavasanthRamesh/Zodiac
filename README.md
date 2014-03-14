@@ -1,11 +1,15 @@
 Zodiac
 ======
 
-Zodiac Project
+This project is a fun project created to play with astrology.
 
-Based on the zodiac rules by BV Ramana , a heuristic approach is followed in creating this project.
+Based on the zodiac rules by BV Ramana , a heuristic approach is followed in generating the predictions.
 
 To install :
 
-Simply run the prime file from terminal
+First install Urllib2 and Beautiful soup 
+
+Then run
+
+python prime.py
 
