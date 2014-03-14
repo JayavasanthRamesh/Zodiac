@@ -54,11 +54,11 @@ def birthchart(day,month,year,hour,mins,place):
 				place_text(x,count)
 				count=count+1
 
-def getplanet_matrix(day,year,month,hour,mins,place): 
+def getplanet_matrix(hour,mins,day,month,year,place): 
 	pos=[0,1,2,3,11,12,4,10,5,9,8,7,6]
 	planet=[[],[],[],[],[],[],[],[],[],[],[],[],[]]
 	globals().update(locals())
-	birthchart(25,7,1993,21,00,'chennai')
+	birthchart(day,month,year,hour,mins,'chennai')
 	#print(planet)
 	personal=[]
 	result=[]
