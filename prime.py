@@ -29,7 +29,6 @@ def drawchart(result):
     #textbox.set_buffer(text)
     #textbox.set_line_wrap()
     #win.add(textbox)
-
     #drawing_area.connect("expose-event", expose_handler)
     message = gtk.MessageDialog(type=gtk.MESSAGE_INFO, buttons=gtk.BUTTONS_OK)
     message.set_markup(result)
